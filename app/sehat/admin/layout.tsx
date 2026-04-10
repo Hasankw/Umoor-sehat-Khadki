@@ -27,6 +27,14 @@ export default async function SehatAdminLayout({ children }: { children: React.R
       <main className="max-w-6xl mx-auto px-6 py-8">
         {children}
       </main>
+
+      <footer className="no-print mt-8 py-4 text-center text-xs text-gray-400 border-t border-gray-200">
+        © 2026 · Developed by{" "}
+        <a href="https://hasankanchwala.dev" target="_blank" rel="noopener noreferrer"
+          className="hover:underline" style={{ color: "var(--color-gold-dark)" }}>
+          Hasan Kanchwala
+        </a>
+      </footer>
     </div>
   );
 }
