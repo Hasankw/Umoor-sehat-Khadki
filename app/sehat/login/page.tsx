@@ -27,6 +27,14 @@ export default function SehatLoginPage() {
           <LoginForm />
         </Suspense>
       </div>
+
+      <p className="mt-8 text-xs text-white/30">
+        © 2026 · Developed by{" "}
+        <a href="https://hasankanchwala.dev" target="_blank" rel="noopener noreferrer"
+          className="hover:underline text-white/50">
+          Hasan Kanchwala
+        </a>
+      </p>
     </div>
   );
 }
