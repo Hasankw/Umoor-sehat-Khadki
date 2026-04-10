@@ -11,10 +11,8 @@ export default function SehatLoginPage() {
       style={{ background: "var(--color-navy)" }}>
 
       {/* Logos */}
-      <div className="flex items-center justify-center gap-6 mb-6">
-        <Image src="/images/logo-main.png"   alt="Jamaat Logo"  width={64} height={64} className="object-contain" />
-        <Image src="/images/logo-khadki.png" alt="Khadki Logo"  width={64} height={64} className="object-contain" />
-        <Image src="/images/logo-sehat.png"  alt="Sehat Logo"   width={64} height={64} className="object-contain" />
+      <div className="flex items-center justify-center mb-6">
+        <Image src="/images/logo-final.jpg" alt="Saifee Ambulance Corps · Anjuman-e-Badri · Umoor Sehat" width={360} height={112} className="object-contain" />
       </div>
 
       <p className="text-white/60 text-xs tracking-widest uppercase mb-1">Dawat-e-Hadiyah | Jamaat Khadki, Pune</p>

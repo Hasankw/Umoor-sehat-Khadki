@@ -97,10 +97,8 @@ export default function RecordClient({
         }}>
 
         {/* ── Letterhead ── */}
-        <div className="flex items-center justify-center gap-5 mb-1 flex-shrink-0">
-          <Image src="/images/logo-main.png"   alt="" width={56} height={56} className="object-contain" style={{ maxHeight: 56 }} />
-          <Image src="/images/logo-khadki.png" alt="" width={56} height={56} className="object-contain" style={{ maxHeight: 56 }} />
-          <Image src="/images/logo-sehat.png"  alt="" width={56} height={56} className="object-contain" style={{ maxHeight: 56 }} />
+        <div className="flex items-center justify-center mb-1 flex-shrink-0">
+          <Image src="/images/logo-final.jpg" alt="" width={360} height={112} className="object-contain" style={{ maxHeight: 72 }} />
         </div>
         <p className="text-center text-[10px] tracking-widest uppercase text-gray-500 mb-1 flex-shrink-0">
           Dawat-e-Hadiyah | Jamaat Khadki, Pune
@@ -250,10 +248,8 @@ export default function RecordClient({
         className={`mt-6 bg-white rounded-2xl shadow-sm border border-gray-200 flex flex-col print:shadow-none print:border-0 print:rounded-none print:mt-0 ${printPage2 ? "print:flex" : "print:hidden"}`}
         style={{ width: "794px", height: "1123px", margin: "24px auto 0", padding: "24px 32px", fontFamily: "Arial, sans-serif", boxSizing: "border-box" }}>
 
-        <div className="flex items-center justify-center gap-5 mb-1 flex-shrink-0">
-          <Image src="/images/logo-main.png"   alt="" width={56} height={56} className="object-contain" style={{ maxHeight: 56 }} />
-          <Image src="/images/logo-khadki.png" alt="" width={56} height={56} className="object-contain" style={{ maxHeight: 56 }} />
-          <Image src="/images/logo-sehat.png"  alt="" width={56} height={56} className="object-contain" style={{ maxHeight: 56 }} />
+        <div className="flex items-center justify-center mb-1 flex-shrink-0">
+          <Image src="/images/logo-final.jpg" alt="" width={360} height={112} className="object-contain" style={{ maxHeight: 72 }} />
         </div>
         <p className="text-center text-[10px] tracking-widest uppercase text-gray-500 mb-1 flex-shrink-0">Dawat-e-Hadiyah | Jamaat Khadki, Pune</p>
         <div className="text-center mb-3 flex-shrink-0">
