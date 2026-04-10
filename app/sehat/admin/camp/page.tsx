@@ -60,7 +60,7 @@ export default async function CampPage() {
       <h1 className="font-heading font-bold text-2xl mb-1" style={{ color: "var(--color-navy)" }}>
         Ashara Ohabat Special Medical Camp
       </h1>
-      <p className="text-gray-500 text-sm mb-8">1448H | Khadki Jamaat, Pune</p>
+      <p className="text-gray-500 text-sm mb-8">1448H | Kirkee Jamaat, Poona</p>
 
       <CampClient
         patients={patients}

@@ -15,7 +15,7 @@ export default function SehatLoginPage() {
         <Image src="/images/logo-final.jpg" alt="Saifee Ambulance Corps · Anjuman-e-Badri · Umoor Sehat" width={360} height={112} className="object-contain" />
       </div>
 
-      <p className="text-white/60 text-xs tracking-widest uppercase mb-1">Dawat-e-Hadiyah | Jamaat Khadki, Pune</p>
+      <p className="text-white/60 text-xs tracking-widest uppercase mb-1">Dawat-e-Hadiyah | Jamaat Kirkee, Poona</p>
       <h1 className="font-heading font-bold text-xl text-white mb-1">Umoor Sehat</h1>
       <p className="text-white/50 text-sm mb-8">Ashara Ohabat 1448H — Medical Camp</p>
 

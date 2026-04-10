@@ -101,7 +101,7 @@ export default function RecordClient({
           <Image src="/images/logo-final.jpg" alt="" width={360} height={112} className="object-contain" style={{ maxHeight: 72 }} />
         </div>
         <p className="text-center text-[10px] tracking-widest uppercase text-gray-500 mb-1 flex-shrink-0">
-          Dawat-e-Hadiyah | Jamaat Khadki, Pune
+          Dawat-e-Hadiyah | Jamaat Kirkee, Poona
         </p>
         <div className="text-center mb-3 flex-shrink-0">
           <div className="inline-block border-2 px-8 py-1 rounded" style={{ borderColor: "var(--color-gold)" }}>
@@ -239,7 +239,7 @@ export default function RecordClient({
 
         {/* Footer */}
         <p className="mt-2 text-center text-[9px] text-gray-400 flex-shrink-0">
-          Jamaat Khadki, Pune — Umoor Sehat | Confidential Medical Record
+          Jamaat Kirkee, Poona — Umoor Sehat | Confidential Medical Record
         </p>
       </div>
 
@@ -251,7 +251,7 @@ export default function RecordClient({
         <div className="flex items-center justify-center mb-1 flex-shrink-0">
           <Image src="/images/logo-final.jpg" alt="" width={360} height={112} className="object-contain" style={{ maxHeight: 72 }} />
         </div>
-        <p className="text-center text-[10px] tracking-widest uppercase text-gray-500 mb-1 flex-shrink-0">Dawat-e-Hadiyah | Jamaat Khadki, Pune</p>
+        <p className="text-center text-[10px] tracking-widest uppercase text-gray-500 mb-1 flex-shrink-0">Dawat-e-Hadiyah | Jamaat Kirkee, Poona</p>
         <div className="text-center mb-3 flex-shrink-0">
           <div className="inline-block border-2 px-8 py-1 rounded" style={{ borderColor: "var(--color-gold)" }}>
             <p className="font-bold text-sm tracking-wide" style={{ color: "var(--color-navy)" }}>ADDITIONAL REMARKS</p>
@@ -270,7 +270,7 @@ export default function RecordClient({
             placeholder="Additional clinical notes, follow-up instructions, referrals, prescriptions…"
             className="flex-1 w-full bg-transparent text-[11px] outline-none resize-none placeholder:text-gray-300 min-h-0" />
         </div>
-        <p className="mt-2 text-center text-[9px] text-gray-400 flex-shrink-0">Jamaat Khadki, Pune — Umoor Sehat | Page 2</p>
+        <p className="mt-2 text-center text-[9px] text-gray-400 flex-shrink-0">Jamaat Kirkee, Poona — Umoor Sehat | Page 2</p>
       </div>
 
       {/* ── Print CSS ── */}
