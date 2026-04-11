@@ -197,7 +197,7 @@ export default function RecordClient({
 
         {/* ── Dental Remarks (full width, flex-grow) ── */}
         <div className={`${box} mb-3 flex-1`}>
-          <p className={lbl}>Dental Remarks</p>
+          <p className={lbl}>Dental Rx</p>
           <textarea
             value={field("dental_remarks")}
             onChange={(e) => update("dental_remarks", e.target.value)}
@@ -218,7 +218,7 @@ export default function RecordClient({
 
         {/* ── Ortho Remarks (full width, flex-grow) ── */}
         <div className={`${box} flex-1`}>
-          <p className={lbl}>Ortho Remarks</p>
+          <p className={lbl}>Ortho Rx</p>
           <textarea
             value={field("ortho_remarks")}
             onChange={(e) => update("ortho_remarks", e.target.value)}
@@ -265,7 +265,7 @@ export default function RecordClient({
           <span className="text-gray-500">Age: <strong>{patient.age}</strong></span>
         </div>
         <div className="border border-gray-300 rounded p-4 flex-1 flex flex-col">
-          <p className={`${lbl} flex-shrink-0`}>Follow-up Notes / Additional Remarks</p>
+          <p className={`${lbl} flex-shrink-0`}>Additional Rx</p>
           <textarea value={field("extra_remarks")} onChange={(e) => update("extra_remarks", e.target.value)}
             placeholder="Additional clinical notes, follow-up instructions, referrals, prescriptions…"
             className="flex-1 w-full bg-transparent text-[11px] outline-none resize-none placeholder:text-gray-300 min-h-0" />
